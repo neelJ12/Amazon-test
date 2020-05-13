@@ -9,7 +9,7 @@ public class Demo2 {
 		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://google.com");
+		driver.get("https://amazon.ca");
 		System.out.println(driver.getTitle());
 	}
 
